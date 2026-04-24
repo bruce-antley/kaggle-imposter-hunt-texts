@@ -1,0 +1,41 @@
+# Kaggle / data files
+data/
+input/
+working/
+*.csv
+*.tsv
+*.jsonl
+*.zip
+*.tar
+*.gz
+
+# Model artifacts / large ML files
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+models/
+checkpoints/
+outputs/
+
+# Secrets / environment variables
+.env
+.env.*
+kaggle.json
+
+# Jupyter notebook clutter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python clutter
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Mac clutter
+.DS_Store
